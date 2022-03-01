@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: greeting-service
+#https://docs.spring.io/spring-boot/docs/current/reference/html/actuator.html
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+        - "health"
+greeting-service:
+  greeting: "Olá"
+  default-value: "Mundo CLOUD DEV"
