@@ -9,5 +9,5 @@ management:
         include:
         - "health"
 greeting-service:
-  greeting: "Olá"
+  greeting: "Olá dev"
   default-value: "Mundo CLOUD DEV"
